@@ -9,6 +9,8 @@ public class Objects {
         window.setTitle("A piece of shit");
         window.setSize(800, 600);
         window.setVisible(true);
-        
+
+        JLabel label = new JLabel();
+        label.setText("My label text");
     }
 }
