@@ -1,4 +1,4 @@
-package com.company;
+package tutorials.tutorials.basic;
 
 public class Person {
 

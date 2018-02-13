@@ -1,4 +1,4 @@
-package com.company;
+package tutorials.tutorials.basic;
 
 public class ReferenceAndValueType {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class ReferenceAndValueType {
         tom = new Person("Tom"); // we create a new Person object, assign tom to refer to it
         tom.setAge(25);
         System.out.println(tom.getAge());
-        celebrateBirtday(tom); // we passing that reference to a method, so the m() can use that reference to manipulate the object 
+        celebrateBirtday(tom); // we passing that reference to a method, so the m() can use that reference to manipulate the object
         System.out.println(tom.getAge());
     }
     // we manipulated a copy of the value passed
